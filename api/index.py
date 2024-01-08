@@ -2,7 +2,7 @@ from fastapi import FastAPI
 
 from duckduckgo_search import DDGS
 
-
+from pykis import *
 
 
 app = FastAPI()
@@ -26,6 +26,6 @@ def hello_world():
         for r in ddgs_videos_gen:
             print(r)
     rlist.append('adsfkjl')
-    
+
     # print(''.join(rlist))
     return {"message": ''.join(rlist)}

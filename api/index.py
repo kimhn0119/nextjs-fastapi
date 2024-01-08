@@ -27,7 +27,8 @@ def hello_world():
         )
         for r in ddgs_videos_gen:
             print(r)
-    rlist.append(mojito.__version__)
+    rlist.append('mojito.__version__')
+    
 
     # print(''.join(rlist))
     return {"message": ''.join(rlist)}

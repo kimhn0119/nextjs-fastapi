@@ -2,7 +2,7 @@ from fastapi import FastAPI
 
 from duckduckgo_search import DDGS
 
-import mojito
+# import mojito
 
 
 

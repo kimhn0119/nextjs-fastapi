@@ -7,6 +7,7 @@ from duckduckgo_search import DDGS
 
 
 
+
 app = FastAPI()
 
 @app.get("/api/python")
@@ -28,7 +29,7 @@ def hello_world():
         for r in ddgs_videos_gen:
             print(r)
     rlist.append('mojito.__version__')
-    
+
 
     # print(''.join(rlist))
     return {"message": ''.join(rlist)}

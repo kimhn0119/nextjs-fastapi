@@ -3,6 +3,6 @@ uvicorn[standard]==0.23.2
 duckduckgo_search==4.1.1
 # kiwoom==1.3.4
 # mojito2
-
+pandas
 requests
 

@@ -2,7 +2,9 @@ from fastapi import FastAPI
 
 from duckduckgo_search import DDGS
 
-from pykis import *
+import mojito
+
+
 
 
 app = FastAPI()
@@ -25,7 +27,7 @@ def hello_world():
         )
         for r in ddgs_videos_gen:
             print(r)
-    rlist.append('adsfkjl')
+    rlist.append(mojito.__version__)
 
     # print(''.join(rlist))
     return {"message": ''.join(rlist)}
